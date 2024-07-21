@@ -1,0 +1,36 @@
+body  
+{  
+    margin-top: auto;  
+    padding: 0;  
+    background-color:#ffffffe8;  
+    font-family: sans-serif;  
+}  
+img{
+    margin-top: 120px;
+}
+.login{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto; 
+        padding: 80px;  
+        background: #000000;  
+        border-radius: 15px ;  
+          
+}  
+h2{  
+    text-align: center;  
+    color: #000000;  
+    padding: 20px;  
+    margin-top: auto;
+}  
+ 
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: rgb(0, 0, 0);  
+  
+  
+}

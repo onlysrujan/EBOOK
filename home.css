@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color:aliceblue ;
+
+} 
+.pbook{
+    position: absolute;
+    height:100%;
+    width: 100%;
+    margin: 0px 0 0 0px;
+    text-align: left;
+    
+}
+/*.pbook h2{
+
+    margin: 10px 0 0 200px;
+    color: black;
+    font-size:28px;
+    font-style: italic;
+}*/
+.slide{
+    height:435px;
+    background-image: url("./photos/horror_lethal.jpeg");
+    animation: slider 5s infinite linear;
+    background-size: 100%;
+    width:20%;
+    position: inherit;
+    align-items: center;
+    margin: 0 0 0 40%;
+
+}
+/* @keyframes slider {
+    0%{
+        background-image: url("./photos/horror_lethal.jpeg");
+    }
+    35%{
+        background-image: url("./photos/action_elementals.jpeg");
+    }
+    75%{
+        background-image: url("./photos/action_blood.jpeg");
+    }
+    
+} */
+
+.container{
+    display:flex;
+    margin-left: 80px;
+}
+.gallary{
+    
+    margin:30px 0 0 150px;
+    color: white;
+}
+.books{
+    display: none;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    /* margin: 0px;
+    padding: 0px; */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #4A5FC1;
+}
+.row1{
+    display: flex;
+    height: 200px;
+    width: 100%;
+}
+.col1{
+    flex-grow: 1;
+    height: 200px;
+    background-image: url(./photos/ebookimg.jpeg);
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.col2{
+    flex-grow: 2;
+    height: 200px;
+}
+.row2{
+    display: flex;
+    margin-top: 35px;
+}
+.col3{
+    flex-grow: 1;
+}
+.col4{
+    flex-grow: 1;
+}
+.col5{
+    flex-grow: 1;
+}
+.col6{
+    flex-grow: 1;
+}
+.col7{
+    flex-grow: 1;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color:white;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color:black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+.dropbtn{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #E1FCFD;
+    margin-left:5px;
+}
+.dropdown-content a:hover {
+    background-color:beige;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color:rgb(112, 112, 112);
+}
+a{
+    text-decoration: none;
+    color:#E1FCFD;
+}
+button{
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color:rgba(0,0,0,0.7);
+    border: none;
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+}
+h2{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color:#4A5FC1;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.icons{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.icon1{
+    width: 50px;
+    color: rgb(12, 214, 12);
+    font-size: 30px;
+}
+.icon2{
+    width: 50px;
+    color: rgb(245, 14, 14);
+    font-size: 30px;
+}
+.icon3{
+    width: 50px;
+    color: white;
+    font-size: 30px;
+}
+.icon4{
+    width: 50px;
+    color: white;
+    font-size: 30px;
+}
+.num{
+    display: flex;
+    margin-top: 15px;
+}
+.phone{
+   width: 200px;
+   font-size: 20px;
+   color: white;
+   font-weight: bolder;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.mail{
+    width: 270px;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.contact{
+    margin-top: 15px;
+    font-size: 27px;
+    color: white;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+.follow{
+    font-size: 27px;
+    color:white;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
